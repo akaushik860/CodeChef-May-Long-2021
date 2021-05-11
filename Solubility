@@ -40,3 +40,29 @@ So for 1 liter of water the value is 180⋅10=1800 g.
 Test Case 2: Since solubility is increasing with temperature, the maximum solubility will be at 100 degrees which is equal to 120+(100−35)⋅2=250g100 mL.
 
 
+Solution :-
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner s = new Scanner(System.in);
+      int T=s.nextInt();
+
+      while(T-->0){  
+        int X=s.nextInt();
+        int A=s.nextInt();
+        int B=s.nextInt();
+        int ans=(100-X)*B+A;
+        ans=ans*10;
+        System.out.println(ans);
+       } 
+	}
+}
+
