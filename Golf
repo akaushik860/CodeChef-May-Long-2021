@@ -37,3 +37,7 @@ Explanation
 In each test case, the tiles covered by the ball for N=5 and k=2 are {0,2,4,6} in the forward journey and {6,4,2,0} in the backward journey.
 Therefore, the answer for the first test case is "YES" since the ball falls in the position of the hole at tile 4. But the answer for test cases 2 and 3 is "NO" 
 since the ball does not fall in the position of the hole.
+
+
+SOLUTION:-
+
